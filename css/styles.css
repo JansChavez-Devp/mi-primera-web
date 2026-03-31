@@ -78,3 +78,41 @@ ul li {
     width: 250px;
     text-align: center;
 }
+    @media (max-width: 768px) {
+    header {
+        padding: 60px 20px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    .servicios {
+        flex-direction: column;
+        align-items: center;
+    }
+    .proyectos {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.proyectos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.proyecto {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    width: 280px;
+    text-align: center;
+}
+
+.proyecto img {
+    width: 100%;
+    border-radius: 5px;
+}
