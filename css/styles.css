@@ -42,9 +42,9 @@ button:hover {
 
 /* SECCIONES */
 section {
-    padding: 60px 20px;
-    max-width: 900px;
-    margin: auto;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 h2 {
@@ -84,7 +84,7 @@ ul li {
 }
     @media (max-width: 768px) {
     header {
-        padding: 60px 20px;
+        padding: 40px 20px;
     }
 
     header h1 {
@@ -98,6 +98,9 @@ ul li {
     .proyectos {
         flex-direction: column;
         align-items: center;
+    }
+    .sobre-mi {
+        padding:  20px;
     }
 }
 
@@ -120,3 +123,7 @@ ul li {
     width: 100%;
     border-radius: 5px;
 }
+
+.sobre-mi {
+     text-align: left;
+    }
